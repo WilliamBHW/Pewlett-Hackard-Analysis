@@ -42,7 +42,6 @@ create table dept_emp(
     to_date DATE NOT NULL,
 	FOREIGN KEY (dept_no) REFERENCES departments (dept_no),
 	foreign key (emp_no) references employees (emp_no),
-	foreign key (emp_no) references salaries (emp_no),
 	primary key (emp_no, dept_no)
 );
 
@@ -51,7 +50,6 @@ create table titles(
 	title varchar not null,
 	from_date date not null,
 	to_date date not null,
-	foreign key (emp_no) references salaries (emp_no),
 	foreign key (emp_no) references employees (emp_no),
 	primary key (emp_no, title, from_date)
 );

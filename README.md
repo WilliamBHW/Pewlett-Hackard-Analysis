@@ -11,20 +11,20 @@ The purpose of this project is to determine number of people that are going to b
 
 ## Result
 1. Merge the retired employees data with their title (table for employees who are born between January 1, 1952 and December 31, 1955.)
-#### Retirement Titles
-![retirement_titles](https://github.com/WilliamBHW/Pewlett_Hackard_Analysis/blob/main/Resources/retirement%20titles.png)
+  #### Retirement Titles
+  ![retirement_titles](https://github.com/WilliamBHW/Pewlett_Hackard_Analysis/blob/main/Resources/retirement%20titles.png)
 
 2. Determine unique retirement titles based on previous table
-#### Unique Titles
-![unique_titles](https://github.com/WilliamBHW/Pewlett_Hackard_Analysis/blob/main/Resources/unique%20titles.png)
+  #### Unique Titles
+  ![unique_titles](https://github.com/WilliamBHW/Pewlett_Hackard_Analysis/blob/main/Resources/unique%20titles.png)
 
 3. Determine number of employees under each title that will be retired
-#### Retireing Titles
-![retiring_titles](https://github.com/WilliamBHW/Pewlett_Hackard_Analysis/blob/main/Resources/retireing%20titles.png)
+  #### Retireing Titles
+  ![retiring_titles](https://github.com/WilliamBHW/Pewlett_Hackard_Analysis/blob/main/Resources/retireing%20titles.png)
 
 4. Mentorship Program list for employees born in teh year 1965
-#### Mentorship Program
-![mentorship_eligibility](https://github.com/WilliamBHW/Pewlett_Hackard_Analysis/blob/main/Resources/Mentorship.png)
+  #### Mentorship Program
+  ![mentorship_eligibility](https://github.com/WilliamBHW/Pewlett_Hackard_Analysis/blob/main/Resources/Mentorship.png)
 
 ## Summary
 The "silver tsunami" will briong a net lose of 90,938 employees which then needed nearly the same amount of new emploees to fill the shortage.

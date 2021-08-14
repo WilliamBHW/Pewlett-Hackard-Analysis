@@ -15,6 +15,7 @@ The purpose of this project is to determine number of people that are going to b
 ![retirement_titles]()
 
 2. Determine unique retirement titles based on previous table
+#### Unique Titles
 ![unique_titles]()
 
 3. Determine number of employees under each title that will be retired

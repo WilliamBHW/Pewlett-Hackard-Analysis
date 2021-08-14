@@ -26,7 +26,7 @@ SELECT DISTINCT ON (emp_no)
 FROM retirement_titles
 ORDER BY emp_no, to_date DESC;
 
--- count people under each title
+-- Count people under each title
 select count(emp_no), title
 --into retiring_titles
 from unique_titles

@@ -9,7 +9,7 @@ select	e.emp_no,
 		tl.title,
 		tl.from_date,
 		tl.to_date
---into retirement_titles
+into retirement_titles
 from employees as e
 inner join titles as tl
 on (e.emp_no = tl.emp_no)
@@ -22,13 +22,13 @@ SELECT DISTINCT ON (emp_no)
 		first_name,
 		last_name,
 		title
---INTO unique_titles
+INTO unique_titles
 FROM retirement_titles
 ORDER BY emp_no, to_date DESC;
 
 -- Count people under each title
 select count(emp_no), title
---into retiring_titles
+into retiring_titles
 from unique_titles
 group by title
 order by 1 desc;
@@ -42,7 +42,7 @@ select	distinct on(e.emp_no)
 		de.from_date,
 		de.to_date,
 		tl.title
---into mentorship_eligibilty
+into mentorship_eligibilty
 from employees as e
 inner join dept_emp as de
 on (e.emp_no = de.emp_no)
